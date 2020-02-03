@@ -1,0 +1,52 @@
+.game {
+	display: flex;
+}
+
+.game > .game__left {
+	width: 400px;
+}
+
+.game > .game__left > .game__numbers {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
+}
+
+.game > .game__left > .game__numbers > .game__number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-right: 2px;
+	width: 30px;
+	height: 30px;
+	background-color: #4C4C4C;
+	cursor: pointer;
+}
+
+.game > .game__left > .game__numbers > .game__number:hover {
+	box-shadow: 0 0 10px 1px #404040;
+}
+
+.game > .game__left > .game__button {
+	margin-top: 8px;
+
+	display: block;
+    color: #d6d6d6;
+    background-color: #2d2d2d;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game > .game__left > .game__button:focus,
+.game > .game__left > .game__button:hover {
+    box-shadow: 0 0 0 2px #2c5f39;
+}
+
+.game > .game__left > .game__score {
+	font-size: 1.2rem;
+	margin-top: 5px;
+}

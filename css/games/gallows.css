@@ -1,0 +1,84 @@
+.game {
+	
+}
+
+.game > .game__definition {
+
+}
+
+.game > .game__content {
+	display: flex;
+	margin-top: 5px;
+}
+
+.game > .game__content > .game__gallows {
+	background-color: #333336;
+}
+
+.game > .game__content > .game__field {
+	padding-left: 10px;
+}
+
+.game > .game__content > .game__field > .game__word {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.game > .game__content > .game__field > .game__word > .game__letter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0 1px;
+	width: 30px;
+	height: 30px;
+	background-color: #4C4C4C;
+}
+
+.game > .game__content > .game__field > .game__form {
+	margin-top: 10px;
+}
+
+.game > .game__content > .game__field > .game__form > .game__label {
+	display: block;
+}
+
+.game > .game__content > .game__field > .game__form > .game__input {
+	display: block;
+	margin-top: 5px;
+    color: #d6d6d6;
+    background-color: #2d2d2d;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 170px;
+}
+
+.game > .game__content > .game__field > .game__form > .game__input:focus {
+    box-shadow: 0 0 0 2px #2c5f39;
+}
+
+.game > .game__content > .game__field > .game__form > .game__submit {
+	display: block;
+	margin-top: 8px;
+	color: #d6d6d6;
+    background-color: #2d2d2d;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game > .game__content > .game__field > .game__form > .game__submit:focus {
+	box-shadow: 0 0 0 2px #2c5f39;
+}
+
+.game > .game__content > .game__field > .game__form > .game__submit:hover {
+	box-shadow: 0 0 0 2px #2c5f39;
+}
+
+.game > .game__content > .game__field > .game__info {
+	margin-top: 5px;
+}

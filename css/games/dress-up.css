@@ -1,0 +1,34 @@
+.game {
+	display: flex;
+}
+
+.game .game__character {
+	margin: 0 10px;
+	width: 300px;
+	height: 600px;
+}
+
+.game .game__clothes {
+	display: flex;
+	flex-direction: column;
+}
+
+.game .game__clothes-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.game .game__clothes-item img {
+	width: 100px;
+	height: 140px;
+	cursor: pointer;
+}
+
+.game .game__clothes-item img:hover {
+	box-shadow: 0 0 10px 0 #FF72F0;
+}
+
+@media screen and (max-width: 576px) {
+	.game .game__clothes-item img {
+		height: 100px;
+	}
+}

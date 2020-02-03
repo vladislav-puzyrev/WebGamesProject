@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebGamesProject - Угадай число</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/games/guess-the-number.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="vk:image" content="img/slides/slide1.png">
+</head>
+
+<body>
+    <div class="all">
+
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img class="header__img" src="img/icons/logo.png" alt="logo">
+                </a>
+                <div class="header__title"><a href="index.html">WebGamesProject</a></div>
+            </div>
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#">пункт1</a></li>
+                    <li class="header__menu-item"><a href="#">пункт2</a></li>
+                    <li class="header__menu-item"><a href="#">пункт3</a></li>
+                    <li class="header__menu-item"><a href="#">пункт4</a></li>
+                    <li class="header__menu-item"><a href="#">пункт5</a></li>
+                </ul>
+            </nav>
+            <div class="header__hamburger"></div>
+        </header>
+
+        <main class="main">
+
+            <div class="main-left">
+                <aside class="sidebar">
+                    <h2 class="sidebar__title">Лучшие игры 🏆</h2>
+                    <ol class="sidebar__menu">
+                        <li class="sidebar__menu-item"><a href="gallows.html">Виселица</a></li>
+                        <li class="sidebar__menu-item"><a href="find-the-treasure.html">Найди клад</a></li>
+                        <li class="sidebar__menu-item"><a href="pong.html">Понг</a></li>
+                        <li class="sidebar__menu-item"><a href="dress-up.html">Одевалка</a></li>
+                        <li class="sidebar__menu-item"><a href="guess-the-number.html">Угадай число</a></li>
+                        <li class="sidebar__menu-item"><a href="balls-animation.html">Шарики (анимация)</a></li>
+                        <li class="sidebar__menu-item"><a href="#">Еще...</a></li>
+                    </ol>
+                </aside>
+            </div>
+
+            <div class="main-right">
+
+                <div class="slider">
+                    <img src="img/slides/slide1.png" alt="slide1">
+                    <img src="img/slides/slide2.png" alt="slide2" hidden>
+                    <img src="img/slides/slide3.png" alt="slide3" hidden>
+                    <div class="slider__arrow1"></div>
+                    <div class="slider__arrow2"></div>
+                </div>
+
+                <div class="content">
+
+                    <h1>Угадай число</h1>
+
+                    <div class="game">
+                        <p class="game__desc">
+                            Попробуйте угадать рандомно сгенерированное число от -1000 до 1000
+                            с подсказками о том, больше число или меньше.
+                        </p>
+                        <div class="game__content">
+                            <div class="game__block-left">
+                                <label class="game__label" for="game__field">Вводите число наугад</label>
+                                <input class="game__field" id="game__field" type="number">
+                                <button class="game__button">Проверить</button>
+                            </div>
+                            <div class="game__block-right">
+                                <div class="game__console">
+                                    <span>Сыграем? &#128521;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            © Created by Vladislav Puzyrev 2019
+        </footer>
+
+        <div class="sidebar-open"></div>
+
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/nav-open.js"></script>
+    <script src="js/sidebar-open.js"></script>
+    <script src="js/games/guess-the-number.js"></script>
+</body>
+
+</html>
